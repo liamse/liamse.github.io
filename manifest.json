@@ -2,11 +2,7 @@
   "short_name"        : "liamse",
   "name"              : "Esmaeil Samadi",
   "start_url"         : "index.html",
-<<<<<<< HEAD
   "display"           : "fullscreen",
   "orientation"       : "portrait"
+
 }
-=======
-  "display"           : "fullscreen"
-}
->>>>>>> c5a001cd20d3ac135869b8fb52f779089501790d

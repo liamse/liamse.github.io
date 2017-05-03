@@ -5,14 +5,14 @@
   "display"           : "fullscreen",
   "orientation"       : "portrait",
   "icons"             : [{
-        "src": "icon/64x64",
+        "src": "icons/64x64",
         "sizes": "64x64",
         "type": "image/png"
       }, {
-        "src": "icon/64x64",
+        "src": "icons/64x64",
         "sizes": "64x64"
       }, {
-        "src": "icon/128x128",
+        "src": "icons/128x128",
         "sizes": "128x128"
       }]
 

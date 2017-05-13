@@ -12,6 +12,15 @@ if ('serviceWorker' in navigator) {
       // Registration was successful
       console.log('ServiceWorker registration successful with scope: ', registration.scope);
       	//Install Service Worker
+
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+
+
 		self.addEventListener('install', function(event) {
 		  // Perform install steps
 		  event.waitUntil(
@@ -82,12 +91,3 @@ if ('serviceWorker' in navigator) {
 	    })
 	  );
 	});
-
-    }, function(err) {
-      // registration failed :(
-      console.log('ServiceWorker registration failed: ', err);
-    });
-  });
-}
-
-

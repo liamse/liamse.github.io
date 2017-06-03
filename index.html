@@ -19,7 +19,12 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1">
+		<!--
+			contain a <link rel="canonical" href="$SOME_URL" /> tag inside their head that points to the regular HTML version of the AMP HTML document or to itself if no such HTML version exists
+		 -->
+		<link rel="canonical" href="./index.html" />
+
 		<title>Esmaeil Samadi</title>
 
 		<link rel="stylesheet" type="text/css" href="css/inline.css"  media="all">
@@ -48,7 +53,7 @@
 <body>
 
 	<header class="header">
-		<amp-img layout="responsive" src="icons/64x64.png" alt="Logo" width="64" height="64"></amp-img>
+		<amp-img layout="responsive" src="icons/64x64.png" alt="Logo" width=64 height=64 media="all"></amp-img>
 		<h1 class="header__title">Liamse</h1>
 	</header>
 
